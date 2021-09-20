@@ -5,9 +5,9 @@ from .views import *
 
 urlpatterns = [
     path('',HomeView.as_view(),name='home'),
-    path('services/',ServiceView.as_view(),name='home'),
-    path('company/',CompanyView.as_view(),name='home'),
-    path('contact-us/',ContactView.as_view(),name='home'),
-    path('request-a-quote/',QuoteView.as_view(),name='home'),
+    path('about/',AboutView.as_view(),name='about'),
+    path('contact/',ContactView.as_view(),name='contact'),
+    path('blog/',BlogView.as_view(),name='blog'),
+    path('work/',WorkView.as_view(),name='work')
 ]
 # + static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)
