@@ -10,4 +10,3 @@ urlpatterns = [
     path('blog/',BlogView.as_view(),name='blog'),
     path('work/',WorkView.as_view(),name='work')
 ]
-# + static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)
