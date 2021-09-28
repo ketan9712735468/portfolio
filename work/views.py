@@ -6,14 +6,14 @@ from django.views.generic.base import TemplateView
 class HomeView(TemplateView):
     template_name = 'index.html'
 
-class AboutView(TemplateView):
-    template_name = 'about.html'
+class ServiceView(TemplateView):
+    template_name = 'service.html'
 
 class ContactView(TemplateView):
     template_name = 'contact.html'
 
-class BlogView(TemplateView):
-    template_name = 'blog.html'
+class CompanyView(TemplateView):
+    template_name = 'company.html'
 
 class WorkView(TemplateView):
     template_name = 'work.html'
